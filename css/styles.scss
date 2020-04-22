@@ -1,7 +1,144 @@
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+    margin:0;
+    padding:0;
+}
+html,body {
+    margin:0;
+    padding:0;
+}
+
 body {
-	font-family: sans-serif;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 16px;
+	background-image: url(../images/background.png);
+	margin-left: 2em;
+	margin-right: 2em;
+
+
+footer {
+	margin-top: 10em;
+	padding-bottom: 2em;
+	text-align: center;
+}
+
+	hr {
+		width: 60%;
+		height: 2px;
+		background-color: #22777d;
+		border-radius: 5px;
+		margin-top: 2em;
+	}
+
+	a:link {
+		color: #22777d;
+	}
 
 	img {
 		width: 100%;
+		border-radius: 15px;
 	}
+
+	h1 {
+		position: fixed;
+		top: 0px;
+		left: 0 !important;
+		right: 0 !important;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		line-height: 75px;
+		text-align: center;
+		text-transform: capitalize;
+		background-color: #22777d;
+		color: white;
+
+	}
+
+	p {
+		line-height: 125%;
+		margin-bottom: 25px;
+	}
+
+	dd {
+		line-height: 125%;
+	}
+
+	.topline {
+		font-weight: 600;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 2em;
+		margin-top: 100px;
+	}
+
+		.hero {
+			width: 85%;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 25%;
+		}
+
+		.description {
+			width: 85%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 2em;
+		}
+
+		#steptitle {
+			color: #22777d;
+			font-weight: 600;
+			font-size: 1.5em;
+			line-height: 2em;
+		}
+
+		.textblock {
+			width: 85%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 2em;
+		}
+			.floaterimageright {
+				float: right;
+				padding-left: 20px;
+				width: 25%;
+				margin-right: 2em;
+				margin-top: 1em;
+				}
+
+				.floaterimageleft {
+					float: left;
+					padding-right: 20px;
+					width: 25%;
+					margin-right: 2em;
+					margin-top: 1em;
+					}
+
+		.imagecontainer {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			width: 85%;
+			justify-content: space-around;
+			align-items: center;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 2em;
+		}
+
+		#images {
+			width: 45%;
+			border-style: solid;
+			border-width: thin;
+			border-color: #22777d;
+		}
+
+		ul {
+			column-count: 3;
+			column-gap: 20px;
+			width: 85%;
+			margin-left: 10%;
+			margin-right: auto;
+		}
 }
