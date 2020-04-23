@@ -10,80 +10,84 @@ html, body {
 body {
   font-family: helvetica, arial, sans-serif;
   font-size: 16px;
-  background-image: url(../images/background.png);
-  margin-left: 2em;
-  margin-right: 2em; }
+  background-image: url(../images/background.png); }
   body footer {
     margin-top: 10em;
     padding-bottom: 2em;
     text-align: center; }
   body hr {
-    width: 60%;
+    width: 90%;
     height: 2px;
     background-color: #22777d;
     border-radius: 5px;
-    margin-top: 2em; }
+    margin-top: 3em;
+    margin-bottom: 3em; }
   body a:link {
     color: #22777d; }
   body img {
     width: 100%;
     border-radius: 15px; }
   body h1 {
-    position: fixed;
     top: 0px;
     left: 0 !important;
     right: 0 !important;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    line-height: 75px;
+    margin-bottom: 3em;
+    padding-top: 7%;
+    padding-bottom: 7%;
     text-align: center;
     text-transform: capitalize;
-    background-color: #22777d;
-    color: white; }
+    background-image: url(../images/cutwood.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+    font-size: 2em; }
+  body #author, body #date, body #length {
+    font-size: 60%;
+    font-weight: normal; }
+  body h2 {
+    color: #22777d;
+    margin-left: 7%;
+    margin-bottom: 1em; }
   body p {
     line-height: 125%;
     margin-bottom: 25px; }
-  body dd {
-    line-height: 125%; }
   body .topline {
     font-weight: 600;
     display: flex;
     justify-content: center;
-    margin-bottom: 2em;
-    margin-top: 100px; }
+    margin-top: 2em;
+    margin-bottom: 2em; }
   body .hero {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 25%; }
-  body .description {
+  body .openremarks {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em; }
-  body #steptitle {
-    color: #22777d;
-    font-weight: 600;
-    font-size: 1.5em;
-    line-height: 2em; }
-  body .textblock {
+    margin-top: 2em;
+    margin-bottom: 2em; }
+  body .bodytext {
     width: 85%;
     margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em; }
+    margin-right: auto; }
   body .floaterimageright {
     float: right;
     padding-left: 20px;
     width: 25%;
-    margin-right: 2em;
-    margin-top: 1em; }
+    margin-right: 8em;
+    margin-bottom: 3em; }
   body .floaterimageleft {
     float: left;
     padding-right: 20px;
     width: 25%;
-    margin-right: 2em;
-    margin-top: 1em; }
+    margin-left: 6em; }
   body .imagecontainer {
     display: flex;
     flex-direction: row;
@@ -105,3 +109,5 @@ body {
     width: 85%;
     margin-left: 10%;
     margin-right: auto; }
+  body li {
+    list-style-type: square; }
